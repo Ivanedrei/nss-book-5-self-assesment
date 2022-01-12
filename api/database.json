@@ -1,0 +1,89 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "name": "Ivan",
+      "email": "ivan@me.com"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@me.com"
+    },
+    {
+      "id": 3,
+      "name": "Jack",
+      "email": "jack@me.com"
+    }
+  ],
+  "recipients": [
+    {
+      "id": 1,
+      "name": "Ivan",
+      "email": "ivan@me.com"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@me.com"
+    },
+    {
+      "id": 3,
+      "name": "Jack",
+      "email": "jack@me.com"
+    }
+  ],
+  "letterTopics": [
+    {
+      "id": 1,
+      "topic": "Business",
+      "introFormal": true
+    },
+    {
+      "id": 2,
+      "topic": "Friendly",
+      "introFormal": false
+    },
+    {
+      "id": 3,
+      "topic": "Family",
+      "introFormal": false
+    },
+    {
+      "id": 4,
+      "topic": "Congratulations",
+      "introFormal": false
+    },
+    {
+      "id": 5,
+      "topic": "Condolences",
+      "introFormal": true
+    }
+  ],
+  "letters": [
+    {
+      "authorId": 2,
+      "letters": " xc gvhbjn",
+      "letterTopic": "Friendly",
+      "recipientId": 2,
+      "dateSent": "1/10/2022",
+      "id": 1
+    },
+    {
+      "authorId": 1,
+      "letters": " whats up? just testing my book-5-assessment",
+      "letterTopic": "Family",
+      "recipientId": 3,
+      "dateSent": "1/10/2022",
+      "id": 2
+    },
+    {
+      "authorId": 1,
+      "letters": " hey i finished my assessment!",
+      "letterTopic": "Congratulations",
+      "recipientId": 3,
+      "dateSent": "1/10/2022",
+      "id": 3
+    }
+  ]
+}

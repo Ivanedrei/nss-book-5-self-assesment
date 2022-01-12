@@ -1,0 +1,52 @@
+@import "style.css";
+
+.input__letter{
+    width: 150px;
+    height: 75px;
+    border: 1px solid black;
+
+}
+
+#flex{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.label{
+    font-size: 20px;
+}
+
+.select__topics, #select__author, .select__recipient, .select__letter{
+    margin: 0rem 0rem 2rem 0rem;
+
+}
+
+.selection {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0rem;
+}
+
+.description{
+    background-color: lightblue;
+    padding: 2rem;
+    list-style: none;
+}
+
+#inside__letters__date{
+   font-size: 14px;
+   margin-top: 0;
+}
+
+#letterTopic__view{
+    border-radius: 25px;
+    background-color:white;
+    padding: 5px;
+}
+
+#chooseBox{
+   width: 50%;
+}
